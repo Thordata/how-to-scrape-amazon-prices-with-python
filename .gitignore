@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment / editor
+.env
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Outputs
+amazon_prices.csv
+amazon_prices_sample.csv
+debug_last_page.html
+*.log
+

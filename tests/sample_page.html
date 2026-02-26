@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sample Amazon Search Page</title>
+  </head>
+  <body>
+    <div id="search">
+      <!-- Product 1 -->
+      <div data-component-type="s-search-result">
+        <h2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2">
+          <a class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" href="https://www.example.com/product-1">
+            <span>Sample Product 1</span>
+          </a>
+        </h2>
+        <span class="a-price">
+          <span class="a-offscreen">$19.99</span>
+          <span class="a-price-symbol">$</span>
+          <span class="a-price-whole">19</span>
+          <span class="a-price-fraction">99</span>
+        </span>
+      </div>
+
+      <!-- Product 2 -->
+      <div data-component-type="s-search-result">
+        <h2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2">
+          <a class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" href="https://www.example.com/product-2">
+            <span>Sample Product 2</span>
+          </a>
+        </h2>
+        <span class="a-price">
+          <span class="a-offscreen">$42.50</span>
+          <span class="a-price-symbol">$</span>
+          <span class="a-price-whole">42</span>
+          <span class="a-price-fraction">50</span>
+        </span>
+      </div>
+
+      <!-- Product without price, should be skipped -->
+      <div data-component-type="s-search-result">
+        <h2>
+          <a href="https://www.example.com/product-3">
+            <span>Product Without Price</span>
+          </a>
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
+
