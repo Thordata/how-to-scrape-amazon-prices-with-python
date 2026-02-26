@@ -62,7 +62,7 @@ Everything is concentrated into **one Python file** to keep it easy to read and 
 You can **either** clone via Git:
 
 ```bash
-git clone https://github.com/thordata/how-to-scrape-amazon-prices-with-python.git
+git clone https://github.com/Thordata/how-to-scrape-amazon-prices-with-python.git
 cd how-to-scrape-amazon-prices-with-python
 ```
 
@@ -229,7 +229,7 @@ The code is intentionally compact and focused on **a small number of pages** (co
 **1. ChromeDriver / browser errors**
 
 - Make sure **Google Chrome** is installed.
-- If the script fails to start the browser, make sure your Python version matches the one specified in `pyproject.toml` (or this README) and try reinstalling the dependencies with `pip install -r requirements.txt`.
+- If the script fails to start the browser, make sure your Python version is 3.10 or newer (as specified in this README) and try reinstalling the dependencies with `pip install -r requirements.txt`.
 
 **2. Empty `amazon_prices.csv`**
 
@@ -369,9 +369,17 @@ If this tutorial was useful and you want to **skip the infrastructure work**, yo
 - Start with this script to prototype your data needs
 - Then request a **free trial** of Thordata's crawler + dashboard to see how a managed setup feels
 
-To learn more or request access, visit [Thordata on GitHub](https://github.com/thordata) or contact the Thordata team through your usual channel.
+To learn more or request access, visit [Thordata on GitHub](https://github.com/Thordata) or contact the Thordata team through your usual channel.
 
 The goal is simple: let you focus on **questions and decisions**, not on keeping scrapers alive.
+
+---
+
+### Final word
+
+- Check the Thordata Dashboard for managed crawlers, data views, and exports: [dashboard.thordata.com](https://dashboard.thordata.com/).
+- For more information about Thordata, product updates, and examples, start from the GitHub organization page: [github.com/Thordata](https://github.com/Thordata).
+- If you have questions or want to discuss a larger-scale use case, reach out to the Thordata team through your usual contact channel.
 
 ---
 
